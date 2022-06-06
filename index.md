@@ -4,16 +4,16 @@ layout: home
 
 # Magic paper
 
-[Komplex számok](./pages/complex_numbers.html)
+[Komplex számok](./complex_numbers.html)
 
-[Algebra](./pages/algebra.html)
+[Algebra](./algebra.html)
 
-[Deriváltak](./pages/derivates.html)
+[Deriváltak](./derivates.html)
 
-[Trigonometria](./pages/trigonometry.html)
+[Trigonometria](./trigonometry.html)
 
-[Koordinátarendszerek](./pages/coordinate_systems.html)
+[Koordinátarendszerek](./coordinate_systems.html)
 
-[Fourier](./pages/fourier.html)
+[Fourier](./fourier.html)
 
-[Differenciálegyenletek](./pages/differential_equations.html)
+[Differenciálegyenletek](./differential_equations.html)

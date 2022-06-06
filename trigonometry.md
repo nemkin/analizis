@@ -1,9 +1,3 @@
----
-layout: post
-title: "Trigonometria"
-categories:
----
-
 # Trigonometria
 
 $ sin(x+y) = sin(x)cos(y) + cos(x)sin(y) $  

@@ -1,9 +1,3 @@
----
-layout: post
-title: "Komplex számok"
-categories:
----
-
 # Komplex számok
 
 ## Komplex gyök számítás

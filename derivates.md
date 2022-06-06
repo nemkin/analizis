@@ -1,9 +1,3 @@
----
-layout: post
-title: "Deriválás"
-categories:
----
-
 # Deriválás
 
 $ ln'(|x|) = \frac{1}{x} $

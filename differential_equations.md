@@ -1,9 +1,3 @@
----
-layout: post
-title: "Diffegyenletek megoldása"
-categories:
----
-
 # Diffegyenletek megoldása
 
 ## Szeparálható

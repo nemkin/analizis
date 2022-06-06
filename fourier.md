@@ -1,9 +1,3 @@
----
-layout: post
-title: "Fourier"
-categories:
----
-
 # Fourier
 
 ## Fourier-sor
