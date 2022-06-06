@@ -46,7 +46,6 @@ $ r^2sin(\vartheta) = $
 | y |   | $\frac{\partial{}i}{\partial{}j}$ |           |
 | z |   |                                   |           |
 
-
 ## Henger koordináták
 
 <img src="./henger_koordinatak.png" alt="Henger koordináták" width=300px>
@@ -113,3 +112,69 @@ Következmények: A Fourier-sora ekkor:
 - $ \Phi(x) = \frac{f(x-0)+f(x+0)}{2} $
 
 ![./dirichlet.png](./dirichlet.png)
+
+# Diffegyenletek megoldása
+
+## Szeparálható
+
+$ y' - f(x)g(y) = h(x) $
+
+### Homogén általános megoldása
+
+$ y' - f(x)g(y) = 0 $
+
+$ y' = f(x)g(y) $
+
+1. eset: Van olyan $k$ ahol $g(k) = 0$.
+- Ilyenkor y(x) = k megoldás, mert:
+  - $ y'(x) = 0 $
+  - $ g(y(x)) = g(k) = 0 $
+  - $ 0 = f(x)\cdot{}0 $
+
+2. eset: $ g(k)\neq{}0 $
+- Ilyenkor oszthatunk vele:
+- $ \frac{dy}{dx} = f(x)g(y) $
+- $ \int{}\frac{dy}{g(y)} = \int{}f(x){dx} $
+
+### Inhomogén partikuláris megoldása
+
+Állandó variálásával
+
+- Kijön valami $ y_{H,Á}(x) = k\cdot{}m(x) $.
+- Ekkor a partikuláris megoldást $ y_{I,P}(x) = k(x)\cdot{}m(x) $ alakban keressük.
+- Visszahelyettesítjük ide: $ y' - f(x)g(y) = h(x) $.
+  - Ez mindig olyan lesz, hogy a $k(x)$ kiesik és a $k'(x)$-et visszaintegráljuk.
+
+## Lineáris n-edrendű
+
+$ a_{n-1}y^{(n-1)} + \cdots{} + a_2y'' + a_1y' + a_0 y = f(x) $
+
+### Homogén általános megoldása
+
+$ a_{n-1}y^{(n-1)} + \cdots{} + a_2y'' + a_1y' + a_0 y = 0 $
+
+Karakterisztikus egyenlet:
+
+$ a_{n-1}\lambda{}^{n-1} + \cdots{} + a_2\lambda{}^2 + a_1\lambda{} + a_0 = 0 $
+
+Gyökök alapján: Az alábbi felsorolásból kieső $y(x)$-ek összege kell, különböző $k_i$ konstansokkal.
+
+- $\lambda$ egyszeres valós gyök: ($1$ db megoldás lineáris kombinációja)
+  - $ y_1(x) = k_1 e^{\lambda{}x} $
+- $\lambda$ $s$-szeres valós gyök: ($k$ db megoldás lineáris kombinációja)
+  - $ y_1(x) = k_1 e^{\lambda{}x} $
+  - $ y_2(x) = k_2 x e^{\lambda{}x} $
+  - $\dots{}$
+  - $ y_1(x) = k_s x^{s-1}e^{\lambda{}x} $
+- $\alpha \pm{} \beta{}i$ egyszeres valós gyökpár: ($2$ db megoldás lineáris kombinációja)
+  - $ y_1(x) = k_1 e^{\lambda{}\alpha{}} cos(\beta{}x)$
+  - $ y_2(x) = k_2 e^{\lambda{}\alpha{}} sin(\beta{}x)$
+- $\alpha \pm{} \beta{}i$ $s$-szeres valós gyökpár: ($2s$ db megoldás lineáris kombinációja)
+  - $ y_1(x) = k_1 e^{\lambda{}\alpha{}} cos(\beta{}x)$
+  - $ y_2(x) = k_2 e^{\lambda{}\alpha{}} sin(\beta{}x)$
+  - $ y_3(x) = k_3 x e^{\lambda{}\alpha{}} cos(\beta{}x)$
+  - $ y_4(x) = k_4 x e^{\lambda{}\alpha{}} sin(\beta{}x)$
+  - $\dots{}$
+  - $\dots{}$
+  - $ y_{2s-1}(x) = k_{2s-1} x^{s-1} e^{\lambda{}\alpha{}} cos(\beta{}x)$
+  - $ y_{2s}(x) = k_{2s-1} x^{s-1} e^{\lambda{}\alpha{}} sin(\beta{}x)$
