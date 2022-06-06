@@ -26,11 +26,11 @@ $ ( \frac{f}{g} )' = \frac{f'g - fg'}{g^2} $
 
 # Koordinátarendszerek
 
-[Jakobi-determinánsos számolások](./koordinatarendszerek.md)
+[Jakobi-determinánsos számolások](./assets/koordinatarendszerek.md)
 
 ## Gömbi koordináták
 
-<img src="./gombi_koordinatak.png" alt="Gömbi koordináták" width=300px>
+<img src="./assets/gombi_koordinatak.png" alt="Gömbi koordináták" width=300px>
 
 $ x = r\cdot{}sin(\vartheta)\cdot{}cos(\varphi) $  
 $ y = r\cdot{}sin(\vartheta)\cdot{}sin(\varphi) $  
@@ -48,7 +48,7 @@ $ r^2sin(\vartheta) = $
 
 ## Henger koordináták
 
-<img src="./henger_koordinatak.png" alt="Henger koordináták" width=300px>
+<img src="./assets/henger_koordinatak.png" alt="Henger koordináták" width=300px>
 
 $ x = r\cdot{}cos(\varphi)$  
 $ y = r\cdot{}sin(\varphi)$  
@@ -94,7 +94,7 @@ Inverz:
 
 $ f(x) = \frac{1}{2\pi{}}\int\limits_{-\infty{}}^{\infty{}}\mathcal{F}(\omega)\cdot{}e^{i\omega{}x}~d\omega{} $
 
-![./fourier.png](./fourier.png)
+![./assets/fourier.png](./assets/fourier.png)
 
 # Dirichlet-tétel (5/2)
 
@@ -111,7 +111,7 @@ Következmények: A Fourier-sora ekkor:
 - Pontonként konvergens (mindenhol)
 - $ \Phi(x) = \frac{f(x-0)+f(x+0)}{2} $
 
-![./dirichlet.png](./dirichlet.png)
+![./assets/dirichlet.png](./assets/dirichlet.png)
 
 # Diffegyenletek megoldása
 
@@ -193,4 +193,3 @@ $ a_{n-1}y^{(n-1)} + \dots{} + a_2y'' + a_1y' + a_0 y = f(x) $
 | $x^4sin(4x)$ | $(Ax^4+Bx^3+Cx^2+Dx+E)(Fcos(4x)+Gsin(4x))$ |
 | $e^{7x}$ | $Ae^{7x}$ |
 | $x^2cos(2x)e^{9x}$ | $(Ax^2+Bx+C)(Dcos(2x)+Esin(2x))e^{9x}$ |
-
