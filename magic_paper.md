@@ -147,34 +147,34 @@ $ y' = f(x)g(y) $
 
 ## Lineáris n-edrendű
 
-$ a_{n-1}y^{(n-1)} + \cdots{} + a_2y'' + a_1y' + a_0 y = f(x) $
+$ a_{n-1}y^{(n-1)} + \dots{} + a_2y'' + a_1y' + a_0 y = f(x) $
 
 ### Homogén általános megoldása
 
-$ a_{n-1}y^{(n-1)} + \cdots{} + a_2y'' + a_1y' + a_0 y = 0 $
+$ a_{n-1}y^{(n-1)} + \dots{} + a_2y'' + a_1y' + a_0 y = 0 $
 
 Karakterisztikus egyenlet:
 
-$ a_{n-1}\lambda{}^{n-1} + \cdots{} + a_2\lambda{}^2 + a_1\lambda{} + a_0 = 0 $
+$ a_{n-1}\lambda{}^{n-1} + \dots{} + a_2\lambda{}^2 + a_1\lambda{} + a_0 = 0 $
 
 Gyökök alapján: Az alábbi felsorolásból kieső $y(x)$-ek összege kell, különböző $k_i$ konstansokkal.
 
 - $\lambda$ egyszeres valós gyök: ($1$ db megoldás lineáris kombinációja)
-  - $ y_1(x) = k_1 e^{\lambda{}x} $
+  - $ y_1(x) = k_1\cdot{}e^{\lambda{}x} $
 - $\lambda$ $s$-szeres valós gyök: ($k$ db megoldás lineáris kombinációja)
-  - $ y_1(x) = k_1 e^{\lambda{}x} $
-  - $ y_2(x) = k_2 x e^{\lambda{}x} $
+  - $ y_1(x) = k_1\cdot{}e^{\lambda{}x} $
+  - $ y_2(x) = k_2\cdot{}x\cdot{}e^{\lambda{}x} $
   - $\dots{}$
-  - $ y_1(x) = k_s x^{s-1}e^{\lambda{}x} $
+  - $ y_1(x) = k_s\cdot{}x^{s-1}\cdot{}e^{\lambda{}x} $
 - $\alpha \pm{} \beta{}i$ egyszeres valós gyökpár: ($2$ db megoldás lineáris kombinációja)
-  - $ y_1(x) = k_1 e^{\lambda{}\alpha{}} cos(\beta{}x)$
-  - $ y_2(x) = k_2 e^{\lambda{}\alpha{}} sin(\beta{}x)$
+  - $ y_1(x) = k_1\cdot{}e^{\lambda{}\alpha{}}\cdot{}cos(\beta{}x)$
+  - $ y_2(x) = k_2\cdot{}e^{\lambda{}\alpha{}}\cdot{}sin(\beta{}x)$
 - $\alpha \pm{} \beta{}i$ $s$-szeres valós gyökpár: ($2s$ db megoldás lineáris kombinációja)
-  - $ y_1(x) = k_1 e^{\lambda{}\alpha{}} cos(\beta{}x)$
-  - $ y_2(x) = k_2 e^{\lambda{}\alpha{}} sin(\beta{}x)$
-  - $ y_3(x) = k_3 x e^{\lambda{}\alpha{}} cos(\beta{}x)$
-  - $ y_4(x) = k_4 x e^{\lambda{}\alpha{}} sin(\beta{}x)$
+  - $ y_1(x) = k_1\cdot{}e^{\lambda{}\alpha{}}\cdot{}cos(\beta{}x)$
+  - $ y_2(x) = k_2\cdot{}e^{\lambda{}\alpha{}}\cdot{}sin(\beta{}x)$
+  - $ y_3(x) = k_3\cdot{}x\cdot{}e^{\lambda{}\alpha{}}\cdot{}cos(\beta{}x)$
+  - $ y_4(x) = k_4\cdot{}x\cdot{}e^{\lambda{}\alpha{}}\cdot{}sin(\beta{}x)$
   - $\dots{}$
   - $\dots{}$
-  - $ y_{2s-1}(x) = k_{2s-1} x^{s-1} e^{\lambda{}\alpha{}} cos(\beta{}x)$
-  - $ y_{2s}(x) = k_{2s-1} x^{s-1} e^{\lambda{}\alpha{}} sin(\beta{}x)$
+  - $ y_{2s-1}(x) = k_{2s-1}\cdot{}x^{s-1}\cdot{}e^{\lambda{}\alpha{}}\cdot{}cos(\beta{}x)$
+  - $ y_{2s}(x) = k_{2s-1}\cdot{}x^{s-1}\cdot{}e^{\lambda{}\alpha{}}\cdot{}sin(\beta{}x)$
