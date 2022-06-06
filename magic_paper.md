@@ -26,6 +26,8 @@ $ ( \frac{f}{g} )' = \frac{f'g - fg'}{g^2} $
 
 # Koordinátarendszerek
 
+[Jakobi-determinánsos számolások](./koordinatarendszerek.md)
+
 ## Gömbi koordináták
 
 <img src="./gombi_koordinatak.png" alt="Gömbi koordináták" width=300px>
@@ -92,3 +94,22 @@ $ \mathcal{F}(\omega) = \int\limits_{-\infty{}}^{\infty{}}f(x)\cdot{}e^{-i\omega
 Inverz:
 
 $ f(x) = \frac{1}{2\pi{}}\int\limits_{-\infty{}}^{\infty{}}\mathcal{F}(\omega)\cdot{}e^{i\omega{}x}~d\omega{} $
+
+![./fourier.png](./fourier.png)
+
+# Dirichlet-tétel (5/2)
+
+Feltételek: PIF MOHA
+
+- Periodikus ($2\pi$-n)
+- Integrálható ($[0,2\pi]$-n)
+- Felbontható ($[0,2\pi]$ véges sok $[\alpha,\beta]$-ra)
+  - Monoton ($f(x)$ $[\alpha,\beta]$-n)
+  - Határérték a végpontokban létezik és VÉGES ($f(\alpha+0)$ és $f(\beta-0)$ létezik és véges)
+
+Következmények: A Fourier-sora ekkor:
+
+- Pontonként konvergens (mindenhol)
+- $ \Phi(x) = \frac{f(x-0)+f(x+0)}{2} $
+
+![./dirichlet.png](./dirichlet.png)
