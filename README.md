@@ -1,4 +1,4 @@
-# Magic paper
+# Magic Paper
 
 [Komplex számok](./complex_numbers.md)
 
