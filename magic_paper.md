@@ -2,7 +2,13 @@
 
 ## Komplex gyök számítás
 
-$ z^n_k = \sqrt[n]{r}\cdot{}(cos(\frac{\pi{}+2k\pi{}}{n}) + i\cdot{}sin(\frac{\pi{}+2k\pi{}}{n})) $
+Keressük
+
+$ z^n = r \cdot{} (cos(\alpha) + i\cdot{}sin(\alpha)) $  
+
+$n.$ gyökét, amiből $n$ darab van, a $k.$ gyök:
+
+$ z_k = \sqrt[n]{r}\cdot{}(cos(\frac{\alpha{}+2k\pi{}}{n}) + i\cdot{}sin(\frac{\alpha{}+2k\pi{}}{n})) $
 
 # Polinomok
 
