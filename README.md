@@ -1,15 +1,15 @@
 # Magic paper
 
-[Komplex számok](./_posts/complex_numbers.md)
+[Komplex számok](./pages/complex_numbers.md)
 
-[Algebra](./_posts/algebra.md)
+[Algebra](./pages/algebra.md)
 
-[Deriváltak](./_posts/derivates.md)
+[Deriváltak](./pages/derivates.md)
 
-[Trigonometria](./_posts/trigonometry.md)
+[Trigonometria](./pages/trigonometry.md)
 
-[Koordinátarendszerek](./_posts/coordinate_systems.md)
+[Koordinátarendszerek](./pages/coordinate_systems.md)
 
-[Fourier](./_posts/fourier.md)
+[Fourier](./pages/fourier.md)
 
-[Differenciálegyenletek](./_posts/differential_equations.md)
+[Differenciálegyenletek](./pages/differential_equations.md)
