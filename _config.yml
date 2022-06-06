@@ -8,3 +8,11 @@ github_link: https://github.com/nemkin/analizis
 remote_theme: jekyll/minima
 
 markdown: kramdown
+
+plugins:
+  - jekyll-titles-from-headings
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true
