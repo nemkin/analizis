@@ -190,7 +190,7 @@ $ a_{n-1}y^{(n-1)} + \dots{} + a_2y'' + a_1y' + a_0 y = f(x) $
 | $5$ | $A$ |
 | $x^3+5x+2$ | $Ax^2+Bx+C$ |
 | $cos(x)$ | $Acos(x) + Bsin(x)$ |
-| $x^4sin(x)$ | $(Ax^4+Bx^3+Cx^2+Dx+E)(Fcos(x)+Gsin(x))$ |
+| $x^4sin(4x)$ | $(Ax^4+Bx^3+Cx^2+Dx+E)(Fcos(4x)+Gsin(4x))$ |
 | $e^{7x}$ | $Ae^{7x}$ |
-| $x^2cos(x)e^{9x}$ | $(Ax^2+Bx+C)(Dcos(x)+Esin(x))e^{9x}$ |
+| $x^2cos(2x)e^{9x}$ | $(Ax^2+Bx+C)(Dcos(2x)+Esin(2x))e^{9x}$ |
 
