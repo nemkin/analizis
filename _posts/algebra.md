@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Algebra"
+categories:
+---
+
 # Algebra
 
 ## Másodfokú egyenlet megoldóképlete
