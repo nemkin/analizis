@@ -78,4 +78,17 @@ $ cos(2x) = cos^2(x) - sin^2(x) $
 $ cos^2(x) = \frac{1+cos(2x)}{2} $  
 $ sin^2(x) = \frac{1-cos(2x)}{2} $
 
+# Fourier-sor
 
+$\Phi(x) = \frac{a_0}{2} + \sum\limits_{k=1}^{\infty} (a_k\cdot{}cos(kx) + b_k\cdot{}sin(kx)) $
+
+$ a_k = \frac{1}{\pi} \int\limits_{0}^{2\pi} f(x)\cdot{}cos(kx)~dx $, ahol $ k=0,1,2,\cdots{} $  
+$ b_k = \frac{1}{\pi} \int\limits_{0}^{2\pi} f(x)\cdot{}sin(kx)~dx $, ahol $ k=1,2,\cdots{} $
+
+# Fourier-transzformáció
+
+$ \mathcal{F}(\omega) = \int\limits_{-\infty{}}^{\infty{}}f(x)\cdot{}e^{-i\omega{}x}~dx $
+
+Inverz:
+
+$ f(x) = \frac{1}{2\pi{}}\int\limits_{-\infty{}}^{\infty{}}\mathcal{F}(\omega)\cdot{}e^{i\omega{}x}~d\omega{} $
