@@ -9,6 +9,11 @@ Ha nem teljesül, akkor divergens. (Ha teljesül akkor nem tudjuk.)
 - Egy sor csak akkor tud konvergens lenni, ha az elemei $0$-ba tartanak.  
   $\lim\limits_{k\rightarrow{}\infty}a_k = 0$ szükséges, hogy $\sum\limits_{k=0}^{\infty} a_k $ konvergens lehessen.
 
+### Elégséges feltételek
+
+- Abszolút konvergenciából következik a konvergencia.  
+  $\sum\limits_{k=1}^{\infty} |a_k|$ konvergens $\Rightarrow$ $\sum\limits_{k=1}^{\infty} a_k$ konvergens
+
 ## Pozitív előjelű sorok
 
 ### Szükséges és elégséges feltételek
