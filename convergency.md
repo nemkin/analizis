@@ -38,8 +38,13 @@ Minden kritériumra itt feltétel: $a_n > 0$ $\forall{}n$
     - Ha $\lim\limits_{n\rightarrow{}\infty{}}\frac{a_{n+1}}{a_n} = c > 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ konvergens.
       - $c=1$ esetében NEM TUDJUK, külön megnézni!
 - Gyökkritérium:
-
-
+  - Konvergenciára: Egy konvergens mértani sorral becslünk felülről. Ha a kvóciens $<1$ akkor konvergens.
+    - Ha $\sqrt[n]{a_n} \leq{} q < 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ konvergens.
+    - Ha $\lim\limits_{n\rightarrow{}\infty{}}\sqrt[n]{a_n} = c < 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ konvergens.
+  - Divergenciára: Egy divergens mértani sorral becslünk felülről. Ha a kvóciens $\geq{}1$ akkor divergens.
+    - Ha $\sqrt[n]{a_n} \geq{} q \geq{} 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ divergens.
+    - Ha $\lim\limits_{n\rightarrow{}\infty{}}\sqrt[n]{a_n} = c > 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ divergens.
+      - $c=1$ esetében NEM TUDJUK, külön megnézni!
 
 ## Váltakozó előjelű sorok
 
