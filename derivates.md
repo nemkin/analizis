@@ -2,6 +2,10 @@
 
 $ ln'(\vert{}x\vert{}) = \frac{1}{x} $
 
+## Összefüggések
+
+$ ( f\cdot{}g )' = f'g + fg' $
+
 $ ( \frac{f}{g} )' = \frac{f'g - fg'}{g^2} $
 
 # Szélsőértékhelyek számolása
