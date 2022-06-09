@@ -24,12 +24,12 @@ Itt van ami konvergenciára, van ami divergenciára vonatkozik. Ha teljesül akk
 
 Minden kritériumra itt feltétel: $a_n > 0$ $\forall{}n$
 
-- Majoráns / Minoráns kritérium
+- **Majoráns / Minoráns kritérium**:
   - Konvergenciára (majoráns): Sor elemei felülről becsülhetők egy konvergens sor elemeivel.  
     Ha $0 < a_n \leq{} c_n$ $\forall{}n$ és $\sum\limits_{n=1}^{\infty}c_n$ konvergens $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ konvergens.
   - Divergenciára (minoráns): Sor elemei alulról becsülhetők egy divergens sor elemeivel.  
     Ha $0 < d_n \leq{} a_n$ $\forall{}n$ és $\sum\limits_{n=1}^{\infty}d_n$ divergens $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ divergens.
-- Hányados kritérium:
+- **Hányados kritérium**:
   - Konvergenciára: Egy konvergens mértani sor kvóciensével becslünk felülről. Ha a kvóciens $<1$ akkor konvergens.  
     - Ha $\frac{a_{n+1}}{a_n} \leq{} q < 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ konvergens.
     - Ha $\lim\limits_{n\rightarrow{}\infty{}}\frac{a_{n+1}}{a_n} = c < 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ konvergens.
@@ -37,7 +37,7 @@ Minden kritériumra itt feltétel: $a_n > 0$ $\forall{}n$
     - Ha $\frac{a_{n+1}}{a_n} \geq{} q \geq{} 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ divergens.
     - Ha $\lim\limits_{n\rightarrow{}\infty{}}\frac{a_{n+1}}{a_n} = c > 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ konvergens.
       - $c=1$ esetében NEM TUDJUK, külön megnézni!
-- Gyökkritérium:
+- **Gyökkritérium**:
   - Konvergenciára: Egy konvergens mértani sorral becslünk felülről. Ha a kvóciens $<1$ akkor konvergens.
     - Ha $\sqrt[n]{a_n} \leq{} q < 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ konvergens.
     - Ha $\lim\limits_{n\rightarrow{}\infty{}}\sqrt[n]{a_n} = c < 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ konvergens.
@@ -45,7 +45,7 @@ Minden kritériumra itt feltétel: $a_n > 0$ $\forall{}n$
     - Ha $\sqrt[n]{a_n} \geq{} q \geq{} 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ divergens.
     - Ha $\lim\limits_{n\rightarrow{}\infty{}}\sqrt[n]{a_n} = c > 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ divergens.
       - $c=1$ esetében NEM TUDJUK, külön megnézni!
-- Integrálkritérium: Szummát integrálásra átírjuk.  
+- **Integrálkritérium**: Szummát integrálásra átírjuk.  
   Ehhez $f(k) = a_k$ függvényt használunk ami $f(k)>0$ és monoton csökkenő.
   - Konvergenciára: $\int\limits_{1}^{\infty}f(x)dx$ konvergens $\Rightarrow$ $\sum\limits_{k=1}^{\infty}a_k$ konvergens.
   - Divergenciára: $\int\limits_{1}^{\infty}f(x)dx$ divergens $\Rightarrow$ $\sum\limits_{k=1}^{\infty}a_k$ divergens.
@@ -56,7 +56,7 @@ Minden kritériumra itt feltétel: $a_n > 0$ $\forall{}n$
 
 Ha teljesül, akkor konvergens. (Ha nem teljesül akkor nem tudjuk.)
 
-- Leibniz-sor: Váltakozó előjelű sor, aminek az abszolút
+- **Leibniz-sor**: Váltakozó előjelű sor, aminek az abszolút
   értékeiből képzett sor monoton csökkenő és $0$-ba tart.
   Ez biztosan konvergens.
   - $\vert{}a_{n+1}\vert{} > \vert{}a_n\vert{}$ $\forall{}n$ és
