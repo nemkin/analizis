@@ -14,6 +14,8 @@
 
 [Koordinátarendszerek](coordinate_systems.md)
 
+[Taylor](taylor.md)
+
 [Fourier](fourier.md)
 
 [Differenciálegyenletek](differential_equations.md)
