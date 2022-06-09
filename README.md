@@ -4,9 +4,13 @@
 
 [Algebra](algebra.md)
 
-[Deriváltak](derivates.md)
-
 [Trigonometria](trigonometry.md)
+
+[Határérték](limes.md)
+
+[Konvergencia](convergency.md)
+
+[Deriváltak](derivates.md)
 
 [Koordinátarendszerek](coordinate_systems.md)
 
