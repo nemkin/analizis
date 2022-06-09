@@ -45,7 +45,10 @@ Minden kritériumra itt feltétel: $a_n > 0$ $\forall{}n$
     - Ha $\sqrt[n]{a_n} \geq{} q \geq{} 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ divergens.
     - Ha $\lim\limits_{n\rightarrow{}\infty{}}\sqrt[n]{a_n} = c > 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ divergens.
       - $c=1$ esetében NEM TUDJUK, külön megnézni!
-
+- Integrálkritérium: Szummát integrálásra átírjuk.  
+  Ehhez $f(k) = a_k$ függvényt használunk ami $f(k)>0$ és monoton csökkenő.
+  - Konvergenciára: $\int\limits_{1}^{\infty}f(x)dx$ konvergens $\Rightarrow$ $\sum\limits_{k=1}^{\infty}a_k$ konvergens.
+  - Divergenciára: $\int\limits_{1}^{\infty}f(x)dx$ divergens $\Rightarrow$ $\sum\limits_{k=1}^{\infty}a_k$ divergens.
 ## Váltakozó előjelű sorok
 
 ### Elégséges feltételek
