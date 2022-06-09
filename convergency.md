@@ -22,9 +22,24 @@ Ha teljesül, akkor konvergens. Ha nem teljesül, akkor divergens.
 
 Itt van ami konvergenciára, van ami divergenciára vonatkozik. Ha teljesül akkor konvergens/divergens. (Ha nem teljesül akkor nem tudjuk.)
 
+Minden kritériumra itt feltétel: $a_n > 0$ $\forall{}n$
+
 - Majoráns / Minoráns kritérium
-  - Konvergenciára (Majoráns kritérium): Sor elemei felülről becsülhetők egy konvergens sor elemeivel.  
+  - Konvergenciára (majoráns): Sor elemei felülről becsülhetők egy konvergens sor elemeivel.  
     Ha $0 < a_n \leq{} c_n$ $\forall{}n$ és $\sum\limits_{n=1}^{\infty}c_n$ konvergens $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ konvergens.
+  - Divergenciára (minoráns): Sor elemei alulról becsülhetők egy divergens sor elemeivel.  
+    Ha $0 < d_n \leq{} a_n$ $\forall{}n$ és $\sum\limits_{n=1}^{\infty}d_n$ divergens $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ divergens.
+- Hányados kritérium:
+  - Konvergenciára: Egy konvergens mértani sor kvóciensével becslünk felülről. Ha a kvóciens $<1$ akkor konvergens.  
+    - Ha $\frac{a_{n+1}}{a_n} \leq{} q < 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ konvergens.
+    - Ha $\lim\limits_{n\rightarrow{}\infty{}}\frac{a_{n+1}}{a_n} = c < 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ konvergens.
+  - Divergenciára: Egy divergens mértani sor kvóciensével becslünk alulról. Ha a kvóciens $\geq{}1$ akkor divergens.
+    - Ha $\frac{a_{n+1}}{a_n} \geq{} q \geq{} 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ divergens.
+    - Ha $\lim\limits_{n\rightarrow{}\infty{}}\frac{a_{n+1}}{a_n} = c > 1$ $\Rightarrow$ $\sum\limits_{n=1}^{\infty}a_n$ konvergens.
+      - $c=1$ esetében NEM TUDJUK, külön megnézni!
+- Gyökkritérium:
+
+
 
 ## Váltakozó előjelű sorok
 
