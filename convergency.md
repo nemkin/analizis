@@ -67,3 +67,25 @@ Ha teljesül, akkor konvergens. (Ha nem teljesül akkor nem tudjuk.)
   - $\vert{}a_{n+1}\vert{} > \vert{}a_n\vert{}$ $\forall{}n$ és
     $\lim\limits_{n\rightarrow\infty} \vert{}a_n\vert{} = 0$
     $\Rightarrow$ $\sum\limits_{n=1}^{\infty}(-1)^n\vert{}a_n\vert{}$ konvergens, mert Leibniz.
+    
+## Hatványsorok
+
+$x_0$ középpontú (bázispontú) hatványsor:
+
+$\sum\limits_{k=0}^{\infty}a_k(x-x_0)^k$
+
+Itt az $x$ egy változó, $a_k$-k pedig konstans együtthatók.
+
+Ezek úgy működnek, hogy:
+- $x_0$ körül egy $R$ sugarú nyílt intervallumon lesznek abszolút konvergensek: $(x_0-R, x_0+R)$-en.
+  - $x_0$-ban biztosan abszolút konvergensek.
+  - $R=0$ a legkisebb és $R=\infty$ a legnagyobb lehetséges sugár.
+- Az intervallum végpontjaiban lehet konvergens és divergens is, itt külön meg kell nézni: $x_1 = x_0-R$ és $x_2=x_0+R$ esetében.
+- Az intervallumon kívül divergens.
+
+### Konvergenciatartomány (sugár) meghatározása
+
+$x_0 = 0$ -ra:
+
+- **Gyökkritériummal**: $\limsup \sqrt[n]{\vert{}a_n\vert{}\vert{}x\vert{}^n} = \vert{}x\vert{} \limsup \sqrt[n]{\vert{}a_n\vert{}} = \vert{}x\vert{}\alpha = q < 1$ ha konvergens, tehát $\vert{}x\vert{} < \frac{1}{\alpha} = R$ esetében konvergens.
+- **Hányados kritériummal** $\limsup \frac{\vert{}a_{n+1}\vert{}\vert{}x\vert{}^{n+1}}{\vert{}a_n\vert{}\vert{}x\vert{}^{n}} = \vert{}x\vert{} \limsup \frac{\vert{}a_{n+1}\vert{}}{\vert{}a_n\vert{}} = \vert{}x\vert{}\alpha = q < 1$ ha konvergens, tehát $\vert{}x\vert{} < \frac{1}{\alpha} = R$ esetében konvergens.
