@@ -2,7 +2,7 @@
 
 $ ln'(\vert{}x\vert{}) = \frac{1}{x} $
 
-[Derivált táblázat](./derivalt_tablazat.pdf)
+[Derivált táblázat](derivalt_tablazat.pdf)
 
 ## Összefüggések
 
