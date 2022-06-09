@@ -85,7 +85,9 @@ Ezek úgy működnek, hogy:
 
 ### Konvergenciatartomány (sugár) meghatározása
 
-$x_0 = 0$ -ra:
+$x_0 = 0$ -ra mutatom miért, de a többire is így kell:
 
 - **Gyökkritériummal**: $\limsup \sqrt[n]{\vert{}a_n\vert{}\vert{}x\vert{}^n} = \vert{}x\vert{} \limsup \sqrt[n]{\vert{}a_n\vert{}} = \vert{}x\vert{}\alpha = q < 1$ ha konvergens, tehát $\vert{}x\vert{} < \frac{1}{\alpha} = R$ esetében konvergens.
 - **Hányados kritériummal** $\limsup \frac{\vert{}a_{n+1}\vert{}\vert{}x\vert{}^{n+1}}{\vert{}a_n\vert{}\vert{}x\vert{}^{n}} = \vert{}x\vert{} \limsup \frac{\vert{}a_{n+1}\vert{}}{\vert{}a_n\vert{}} = \vert{}x\vert{}\alpha = q < 1$ ha konvergens, tehát $\vert{}x\vert{} < \frac{1}{\alpha} = R$ esetében konvergens.
+
+Szóval tulajdonképpen az $\vert{}a_k\vert{}$ sorozatra kell a gyökkritérium/hányadoskritérium képletét használni, annak lesz valami határértéke ($\alpha$) és annak a reciproka a konvergenciasugár ($R = \frac{1}{\alpha}$).
