@@ -2,6 +2,8 @@
 
 $ ln'(\vert{}x\vert{}) = \frac{1}{x} $
 
+[Derivált táblázat](./derivalt_tablazat.pdf)
+
 ## Összefüggések
 
 $ ( f\cdot{}g )' = f'g + fg' $
