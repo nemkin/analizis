@@ -49,6 +49,7 @@ Minden kritériumra itt feltétel: $a_n > 0$ $\forall{}n$
   Ehhez $f(k) = a_k$ függvényt használunk ami $f(k)>0$ és monoton csökkenő.
   - Konvergenciára: $\int\limits_{1}^{\infty}f(x)dx$ konvergens $\Rightarrow$ $\sum\limits_{k=1}^{\infty}a_k$ konvergens.
   - Divergenciára: $\int\limits_{1}^{\infty}f(x)dx$ divergens $\Rightarrow$ $\sum\limits_{k=1}^{\infty}a_k$ divergens.
+
 ## Váltakozó előjelű sorok
 
 ### Elégséges feltételek
@@ -58,6 +59,6 @@ Ha teljesül, akkor konvergens. (Ha nem teljesül akkor nem tudjuk.)
 - Leibniz-sor: Váltakozó előjelű sor, aminek az abszolút
   értékeiből képzett sor monoton csökkenő és $0$-ba tart.
   Ez biztosan konvergens.
-  - $|a_{n+1}| > |a_n|$ $\forall{}n$ és
-    $\lim\limits_{n\rightarrow\infty} |a_n| = 0$
-    $\Rightarrow$ $(-1)^n|a_n|$ konvergens, mert Leibniz.
+  - $\vert{}a_{n+1}\vert{} > \vert{}a_n\vert{}$ $\forall{}n$ és
+    $\lim\limits_{n\rightarrow\infty} \vert{}a_n\vert{} = 0$
+    $\Rightarrow$ $\sum\limits_{n=1}^{\infty}(-1)^n\vert{}a_n\vert{}$ konvergens, mert Leibniz.
