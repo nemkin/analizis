@@ -28,11 +28,11 @@ $f(x)$ szélsőértékei:
 $f(x,y)$ szélsőértékei:
 
 - Egyszeres deriváltak = Gradiens vektor: $grad(f(x,y)) = \begin{pmatrix} f'\_x & f'\_y \end{pmatrix}$.
-  -  $grad(f(x,y)) = (0,0)$: Lehet lokális szélsőérték (vagy nem).
-- Kétszeres deriváltak = Hesse mátrix: $H(f(x,y)) = \begin{pmatrix} f''\_{xx} & f''\_{xy}\\\ f''\_{yx} & f''\_{yy}\end{pmatrix}$
-  - $det(H(f(x,y)) > 0$: Lehet lokális szélsőérték.
+  -  $grad(f) = (0,0)$: Lehet lokális szélsőérték (vagy nem).
+- Kétszeres deriváltak = Hesse mátrix: $H(f(x,y)) = \begin{pmatrix} f''\_{xx} & f''\_{xy}\\\ f''\_{yx} & f''\_{yy}\end{pmatrix}$ // $\rightarrow{} (f''\_{xy} = f''\_{yx})$
+  - $det(H(f)) > 0$: Lehet lokális szélsőérték.
     - $f''\_{xx} > 0$: Lokális minimum.
     - $f''\_{xx} < 0$: Lokális maximum.
     - $f''\_{xx} = 0$: ?
-  - $det(H(f(x,y)) < 0$: Nyeregpont.
-  - $det(H(f(x,y)) = 0$: Próba nem járt sikerrel.
+  - $det(H(f)) < 0$: Nyeregpont.
+  - $det(H(f)) = 0$: Próba nem járt sikerrel.
