@@ -37,6 +37,6 @@ $f(x,y)$ szélsőértékei:
   - $det(H(f)) > 0$: Lehet lokális szélsőérték.
     - $f''\_{xx} > 0$: Lokális minimum.
     - $f''\_{xx} < 0$: Lokális maximum.
-    - $f''\_{xx} = 0$: Nem fordulhat elő. (H szimmetrikus)
+    - $f''\_{xx} = 0$: Nem fordulhat elő. (H szimmetrikus.)
   - $det(H(f)) < 0$: Nyeregpont.
   - $det(H(f)) = 0$: Próba nem járt sikerrel. (Lehet van szélsőérték, lehet nincs.)
