@@ -32,11 +32,11 @@ $f(x,y)$ szélsőértékei:
 // Kell: f kétszer totálisan deriválható (x,y)-ban.
 
 - Egyszeres deriváltak = Gradiens vektor: $grad(f(x,y)) = \begin{pmatrix} f'\_x & f'\_y \end{pmatrix}$.
-  -  $grad(f) = (0,0)$: Lehet lokális szélsőérték (vagy nem).
+  -  $grad(f) = (0,0)$: Lehet lokális szélsőérték vagy nyeregpont vagy nem tudjuk.
 - Kétszeres deriváltak = Hesse mátrix: $H(f(x,y)) = \begin{pmatrix} f'\'\_{xx} & f'\'\_{xy}\\\ f'\'\_{yx} & f'\'\_{yy}\end{pmatrix}$ // $\rightarrow{} (f'\'\_{xy} = f'\'\_{yx})$
-  - $det(H(f)) > 0$: Lehet lokális szélsőérték.
+  - $det(H(f)) > 0$: Lokális szélsőérték.
     - $f'\'\_{xx} > 0$: Lokális minimum.
     - $f'\'\_{xx} < 0$: Lokális maximum.
     - $f'\'\_{xx} = 0$: Nem fordulhat elő. (H szimmetrikus.)
   - $det(H(f)) < 0$: Nyeregpont.
-  - $det(H(f)) = 0$: Próba nem járt sikerrel. (Lehet van szélsőérték, lehet nincs.)
+  - $det(H(f)) = 0$: Próba nem járt sikerrel. (Lehet van szélsőérték, lehet nincs, ez a tétel nem tudja eldönteni.)
