@@ -10,10 +10,29 @@ $ ( f\cdot{}g )' = f'g + fg' $
 
 $ ( \frac{f}{g} )' = \frac{f'g - fg'}{g^2} $
 
-# Szélsőértékhelyek számolása
+# Lokális szélsőértékhelyek számolása
 
-- Ahol az 1. deriváltja a függvénynek 0 ott van szélsőérték (minimum, maximum) vagy inflexiós pont.
-- Ezen belül a 2. derivált tud különbséget tenni:
-  - Maximumhely esetén: Negatív a 2. derivált. (`+ból -ba váltó` érintő meredekség)
-  - Minimumhely esetén:  Pozitív a 2. derivált (`-ból +ba váltó` érintő meredekség)
-  - Inflexiós pont esetén: A 2. derivált is 0.
+## 1 dimenzióban
+
+$f(x)$ szélsőértékei:
+
+- Egyszeres derivált: $f'(x)$
+  - $f'(x) = 0$: Lokális szélsőérték vagy inflexiós pont.
+- Kétszeres derivált: $f''(x)$
+  - $f''(x) > 0$: Lokális minimum.
+  - $f''(x) < 0$: Lokális maximum.
+  - $f''(x) = 0$: Inflexiós pont.
+
+## 2 dimenzióban
+
+$f(x,y)$ szélsőértékei:
+
+- Egyszeres deriváltak = Gradiens vektor: $grad(f(x,y)) = \begin{pmatrix} f'\_x & f'\_y \end{pmatrix}$.
+  -  $grad(f(x,y)) = (0,0)$: Lehet lokális szélsőérték (vagy nem).
+- Kétszeres deriváltak = Hesse mátrix: $H(f(x,y)) = \begin{pmatrix} f''\_{xx} & f''\_{xy}\\\ f''\_{yx} & f''\_{yy}\end{pmatrix}$
+  - $det(H(f(x,y)) > 0$: Lehet lokális szélsőérték.
+    - $f''\_{xx} > 0$: Lokális minimum.
+    - $f''\_{xx} < 0$: Lokális maximum.
+    - $f''\_{xx} = 0$: ?
+  - $det(H(f(x,y)) < 0$: Nyeregpont.
+  - $det(H(f(x,y)) = 0$: Próba nem járt sikerrel.
