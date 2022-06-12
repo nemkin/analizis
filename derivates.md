@@ -16,6 +16,8 @@ $ ( \frac{f}{g} )' = \frac{f'g - fg'}{g^2} $
 
 $f(x)$ szélsőértékei:
 
+// Kell: f kétszer deriválható (x)-ben.
+
 - Egyszeres derivált: $f'(x)$
   - $f'(x) = 0$: Lokális szélsőérték vagy inflexiós pont.
 - Kétszeres derivált: $f''(x)$
@@ -26,6 +28,8 @@ $f(x)$ szélsőértékei:
 ## 2 dimenzióban
 
 $f(x,y)$ szélsőértékei:
+
+// Kell: f kétszer totálisan deriválható (x,y)-ban.
 
 - Egyszeres deriváltak = Gradiens vektor: $grad(f(x,y)) = \begin{pmatrix} f'\_x & f'\_y \end{pmatrix}$.
   -  $grad(f) = (0,0)$: Lehet lokális szélsőérték (vagy nem).
