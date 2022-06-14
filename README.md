@@ -12,6 +12,8 @@
 
 [Deriváltak](derivates.md)
 
+[Integrálás](integral.md)
+
 [Koordinátarendszerek](coordinate_systems.md)
 
 [Taylor](taylor.md)
