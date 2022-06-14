@@ -33,3 +33,5 @@ $ \mathcal{F}(\omega) = \int\limits_{-\infty{}}^{\infty{}}f(x)\cdot{}e^{-i\omega
 Inverz:
 
 $ f(x) = \frac{1}{2\pi{}}\int\limits_{-\infty{}}^{\infty{}}\mathcal{F}(\omega)\cdot{}e^{i\omega{}x}~d\omega{} $
+
+![./assets/fourier_trafo.png](./assets/fourier_trafo.png)
