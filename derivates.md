@@ -19,11 +19,13 @@ $f(x)$ szélsőértékei:
 // Kell: f kétszer deriválható (x)-ben.
 - Inflexiós pont: Kétszeres derivált 0. EGYSZERES DERIVÁLT NEM SZÁMÍT!
   - $f'\'(x) = 0$
+  - $f'\'(x) > 0$ POZITÍV: Konvex: Vidám. :)
+  - $f'\'(x) < 0$ NEGATÍV: KonkáViki: Szomorú mert nem tudja megjegyezni. :(
 - Szélsőérték: Egyszeres derivált 0, de ez még lehet hogy inflexiós pont.
   - $f'(x) = 0$: Lokális szélsőérték vagy inflexiós pont.
-    - $f'\'(x) > 0$: Lokális minimum.
-    - $f'\'(x) < 0$: Lokális maximum.
-    - $f'\'(x) = 0$: Inflexiós pont.
+    - $f'\'(x) > 0$: POZITÍV: Lokális minimum.
+    - $f'\'(x) < 0$: NEGATÍV: Lokális maximum.
+    - $f'\'(x) = 0$: ZÉRÓ: Inflexiós pont.
 
 ## 2 dimenzióban
 
