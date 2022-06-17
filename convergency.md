@@ -1,5 +1,12 @@
 # Konvergenciakritériumok sorok esetében
 
+## Konkrét sorok
+
+$ \sum\limits_{n=1}^{\infty{}} \frac{1}{n^x} $
+- Konvergens, ha $x>1$.
+  - Pl. $ \sum\limits_{n=1}^{\infty{}} \frac{1}{n^2} = \frac{\pi^2}{6} $: A négyzetszámok reciprokösszege $\frac{\pi^2}{6}$.
+- Divergens, ha $x\leq{}1$.
+
 ## Bármilyen sorok
 
 ### Szükséges feltételek
