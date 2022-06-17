@@ -21,6 +21,9 @@ $f(x)$ szélsőértékei:
   - $f'\'(x) = 0$
   - $f'\'(x) > 0$ POZITÍV: Konvex: Vidám. :)
   - $f'\'(x) < 0$ NEGATÍV: KonkáViki: Szomorú mert nem tudja megjegyezni. :(
+
+![./assets/konvex_konkav.png](./assets/konvex_konkav.png)
+
 - Szélsőérték: Egyszeres derivált 0, de ez még lehet hogy inflexiós pont.
   - $f'(x) = 0$: Lokális szélsőérték vagy inflexiós pont.
     - $f'\'(x) > 0$: POZITÍV: Lokális minimum.
