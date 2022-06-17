@@ -12,3 +12,7 @@ $ cos(2x) = cos^2(x) - sin^2(x) $
 
 $ cos^2(x) = \frac{1+cos(2x)}{2} $  
 $ sin^2(x) = \frac{1-cos(2x)}{2} $
+
+$ e^{ix} = \cos(x) + i\sin(x) $  
+$ \cos(x) = \frac{e^{ix} + e^{-ix}}{2} $  
+$ \sin(x) = \frac{e^{ix} - e^{-ix}}{2i} $
