@@ -17,13 +17,13 @@ $ ( \frac{f}{g} )' = \frac{f'g - fg'}{g^2} $
 $f(x)$ szélsőértékei:
 
 // Kell: f kétszer deriválható (x)-ben.
-
-- Egyszeres derivált: $f'(x)$
+- Inflexiós pont: Kétszeres derivált 0. EGYSZERES DERIVÁLT NEM SZÁMÍT!
+  - $f'\'(x) = 0$
+- Szélsőérték: Egyszeres derivált 0, de ez még lehet hogy inflexiós pont.
   - $f'(x) = 0$: Lokális szélsőérték vagy inflexiós pont.
-- Kétszeres derivált: $f'\'(x)$
-  - $f'\'(x) > 0$: Lokális minimum.
-  - $f'\'(x) < 0$: Lokális maximum.
-  - $f'\'(x) = 0$: Inflexiós pont.
+    - $f'\'(x) > 0$: Lokális minimum.
+    - $f'\'(x) < 0$: Lokális maximum.
+    - $f'\'(x) = 0$: Inflexiós pont.
 
 ## 2 dimenzióban
 
