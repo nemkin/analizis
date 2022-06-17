@@ -1,5 +1,19 @@
 # Konvergenciakritériumok sorok esetében
 
+Aktuális elemmel tartunk hova?
+
+## Szükséges és elégséges feltételek
+
+- Cauchy-kritérium
+
+Egy sorozat akkor és csak akkor konvergens, ha Cauchy, azaz ha bármilyen kis $\varepsilon{}$-hoz létezik olyan küszöbindex, hogy a sorozat azt követő bármely két elemének a távolsága kisebb, mint $\varepsilon{}$.
+
+![./assets/cauchy.png](./assets/cauchy.png)
+
+![./assets/cauchy_sorozat.png](./assets/cauchy_sorozat.png)
+
+# Konvergenciakritériumok sorösszegek esetében
+
 ## Konkrét sorok
 
 $ \sum\limits_{n=1}^{\infty{}} \frac{1}{n^x} $
@@ -7,7 +21,7 @@ $ \sum\limits_{n=1}^{\infty{}} \frac{1}{n^x} $
   - Pl. $ \sum\limits_{n=1}^{\infty{}} \frac{1}{n^2} = \frac{\pi^2}{6} $: A négyzetszámok reciprokösszege $\frac{\pi^2}{6}$.
 - Divergens, ha $x\leq{}1$.
 
-## Bármilyen sorok
+## Bármilyen sorösszegek
 
 ### Szükséges feltételek
 
@@ -21,7 +35,7 @@ Ha nem teljesül, akkor divergens. (Ha teljesül akkor nem tudjuk.)
 - Abszolút konvergenciából következik a konvergencia.  
   $\sum\limits_{k=1}^{\infty} |a_k|$ konvergens $\Rightarrow$ $\sum\limits_{k=1}^{\infty} a_k$ konvergens
 
-## Pozitív előjelű sorok
+## Pozitív előjelű sorok összegei
 
 ### Szükséges és elégséges feltételek
 
@@ -62,7 +76,7 @@ Minden kritériumra itt feltétel: $a_n > 0$ $\forall{}n$
   - Konvergenciára: $\int\limits_{1}^{\infty}f(x)dx$ konvergens $\Rightarrow$ $\sum\limits_{k=1}^{\infty}a_k$ konvergens.
   - Divergenciára: $\int\limits_{1}^{\infty}f(x)dx$ divergens $\Rightarrow$ $\sum\limits_{k=1}^{\infty}a_k$ divergens.
 
-## Váltakozó előjelű sorok
+## Váltakozó előjelű sorok összegei
 
 ### Elégséges feltételek
 
@@ -75,7 +89,7 @@ Ha teljesül, akkor konvergens. (Ha nem teljesül akkor nem tudjuk.)
     $\lim\limits_{n\rightarrow\infty} \vert{}a_n\vert{} = 0$
     $\Rightarrow$ $\sum\limits_{n=1}^{\infty}(-1)^n\vert{}a_n\vert{}$ konvergens, mert Leibniz.
     
-## Hatványsorok
+## Hatványsorok összegei
 
 $x_0$ középpontú (bázispontú) hatványsor:
 
