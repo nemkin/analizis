@@ -1,4 +1,6 @@
-# Fubini-tétel
+# Integrálás
+
+## Fubini-tétel
 
 ![./assets/fubini.png](./assets/fubini.png)
 
