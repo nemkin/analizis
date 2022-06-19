@@ -35,6 +35,10 @@ Ha nem teljesül, akkor divergens. (Ha teljesül akkor nem tudjuk.)
 - Abszolút konvergenciából következik a konvergencia.  
   $\sum\limits_{k=1}^{\infty} |a_k|$ konvergens $\Rightarrow$ $\sum\limits_{k=1}^{\infty} a_k$ konvergens
 
+- Weierstrass kritérium.
+
+![./assets/weierstrass.png](./assets/weierstrass.png)
+
 ## Pozitív előjelű sorok összegei
 
 ### Szükséges és elégséges feltételek
